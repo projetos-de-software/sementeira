@@ -10,13 +10,19 @@ Primeiramente todo o projeto deverá ser de baixo custo. Quanto mais baixo custo
 
 A segunda parte corresponde a telemetria. Será necessário efetuar medições de temperatura e umidade a cada intervalo de tempo. Eu quero enviar isso por wifi para um site. 
 
+Outra parte é que a alimentação deverá ser solar. 
+
 Além disso será necessário executar a rega da sementeira. Para isso, de tempos em tempos, o sistema deverá ativar a rega para que as sementes não morram. É importante que a rega seja por spray ou gotejamento. 
 
 Outro requisito é que se possa medir a evolução das sementes ao longo do tempo. Para isso é necessário que o sistema tire fotos a cada tempo pré-definido e envie as fotos para um lugar a ser configurado. 
 
 Fora isso o sistema deve abarcar possibilidade de expansão pelo menos para mais 4 funcionalidades. Isso porque a ideia é fazer outros experimentos. 
 
+A telemetria ficará hospedada no servidor. 
 
+Será construido um gif animado no servidor a cada x tempo.
+
+Isso finaliza a primeira parte da sementeira. 
 
 
 ## Matriz de Requisitos
@@ -31,6 +37,8 @@ Fora isso o sistema deve abarcar possibilidade de expansão pelo menos para mais
 |   06   |              Tirar imagens de evolução              | Funcional |
 |   07   | Enviar as imagens de evolução para um armazenamento | Funcional |
 |   08   |        Expansão para mais 4 funcionalidades         | Funcional |
-
+|   09   |         Consulta de Telemetria no servidor          | Funcional |
+|   10   |              Gif animado da sementeira              | Funcional |
+|   11   |                    Energia Solar                    | Funcional |
 
 
